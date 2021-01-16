@@ -1,0 +1,24 @@
+{
+	"name": "smuuf/strict-object",
+	"description": "Just a simple strict-object trait.",
+	"type": "library",
+	"require": {
+		"php": "^7.4|^8"
+	},
+	"require-dev": {
+		"nette/tester": "^2.3",
+		"phpstan/phpstan": "^0.12.67"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Smuuf",
+			"email": "premavansmuuf+composer@gmail.com"
+		}
+	],
+	"autoload":{
+		"psr-4": {
+			"Smuuf\\": "src/"
+		}
+	}
+}
