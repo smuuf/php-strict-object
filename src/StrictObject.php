@@ -5,7 +5,7 @@ namespace Smuuf;
 trait StrictObject {
 
 	/**
-	 * Used when trying to access undeclared or inaccessible property.
+	 * Prohibits access to undeclared properties.
 	 *
 	 * @throws \LogicException
 	 * @return mixed
@@ -21,7 +21,7 @@ trait StrictObject {
 	}
 
 	/**
-	 * Used when trying to write to any undeclared or inaccessible property.
+	 * Prohibits writing to undeclared or inaccessible properties.
 	 *
 	 * @param mixed $value
 	 * @throws \LogicException
